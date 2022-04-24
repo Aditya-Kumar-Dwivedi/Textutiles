@@ -26,7 +26,7 @@ export default function Textform(props) {
     let text=document.getElementById("mybox");
     text.select();
     navigator.clipboard.writeText(text.value);
-    props.showAlert("copied to clipbaord","Success");
+    props.showAlert("copied to clipbaord","Success")
 
 }
   const handleOnchange=(event)=>{
